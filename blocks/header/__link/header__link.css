@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .header__link{
+    .header__link {
         margin-left: auto;
         padding-bottom: 8px;
         gap: 18px;

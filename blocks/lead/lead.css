@@ -4,21 +4,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #ffff;  
+    color: #ffff;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .lead{
+    .lead {
         max-width: 928px;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .lead{
+    .lead {
         max-width: 768px;
     }
 }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .lead{
+    .lead {
         max-width: 320px;
     }
 }

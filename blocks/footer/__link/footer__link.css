@@ -1,8 +1,9 @@
-.footer__link{
+.footer__link {
     color: #ffff;
     text-decoration: none;
     justify-content: space-between;
 }
-.footer__link:hover{
-    opacity: 0.6; 
+
+.footer__link:hover {
+    opacity: 0.6;
 }

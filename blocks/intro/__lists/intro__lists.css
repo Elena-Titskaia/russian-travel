@@ -7,8 +7,9 @@
     font-size: 12px;
     line-height: 1.4em;
 }
+
 @media screen and (max-width: 320px) {
-    .intro__lists{
+    .intro__lists {
         margin-top: 28px;
     }
 }
