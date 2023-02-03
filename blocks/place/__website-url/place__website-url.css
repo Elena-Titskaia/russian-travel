@@ -1,9 +1,8 @@
-.place__website_url {
+.place__website-url {
     color: #AAAAAA;
     font-size: 12px;
     line-height: 1em;
     letter-spacing: 3px;
     font-weight: 400;
     margin-bottom: 20px;
-
 }
