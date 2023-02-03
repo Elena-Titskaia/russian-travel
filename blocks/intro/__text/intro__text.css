@@ -7,16 +7,17 @@
     font-size: 16px;
     line-height: 1.6em;
     margin-top: 44px;
-    color: #ffff;
     font-weight: 400;
 }
+
 @media screen and (max-width: 768px) {
-    .intro__text{
-        max-width: 720px;  
+    .intro__text {
+        max-width: 720px;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .intro__text{
+    .intro__text {
         max-width: 310px;
         line-height: 24px;
         margin-top: 40px;
