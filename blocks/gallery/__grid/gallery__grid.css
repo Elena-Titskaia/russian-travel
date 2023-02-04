@@ -1,12 +1,14 @@
 .gallery__grid {
     max-width: 1184px;
     margin: 0 auto;
+    padding: 0;
     display: grid;
     margin-top: 95px;
     object-fit: cover;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 16px 16px;
+    gap: 16px;
+    list-style: none;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -15,7 +17,7 @@
         max-width: 928px;
         grid-template-columns: repeat(auto-fit, 1fr);
         grid-template-rows: repeat(1fr);
-        gap: 14px 14px;
+        gap: 14px;
     }
 }
 
@@ -23,15 +25,13 @@
     .gallery__grid {
         margin-top: 85px;
         max-width: 720px;
-        grid-template-columns: repeat(auto-fit, 1fr);
-        gap: 16px 16px;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width:767px) {
     .gallery__grid {
         margin-top: 67px;
-        max-width: 100%;
+        max-width: 288px;
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
         row-gap: 12px;
     }

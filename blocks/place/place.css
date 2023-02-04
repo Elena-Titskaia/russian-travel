@@ -33,7 +33,7 @@
     .place {
         max-width: 720px;
         margin: 0 auto;
-        grid-template-columns: 1fr 28px 1fr;
+        grid-template-columns: 1fr 16px 1fr;
         grid-template-rows: auto(auto-fit) auto(auto-fit);
         grid-template-areas:
             'title . website'
