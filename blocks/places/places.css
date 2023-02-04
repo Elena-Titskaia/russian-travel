@@ -8,10 +8,9 @@
 
 @media screen and (min-width: 1280px) and (max-width: 1300px) {
     .places {
-        max-width: 98;
+        max-width: 984px;
         margin-top: 92px;
         row-gap: 80px;
-
     }
 }
 
