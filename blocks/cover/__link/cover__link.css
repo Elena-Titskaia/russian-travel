@@ -1,5 +1,13 @@
 .cover__link {
     margin: 0 auto;
+    padding: 0;
     color: #ffff;
     text-decoration: none;
+    display: block;
+    width: 1184px;
+}
+@media screen and (min-width: 320px), (min-width: 768px), (min-width: 1024px) and (max-width: 1279px) {
+.cover__link {
+    width: 100%;
+}
 }
