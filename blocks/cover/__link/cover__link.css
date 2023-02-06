@@ -1,7 +1,5 @@
 .cover__link {
     margin: 0 auto;
-    box-sizing: border-box;
-    display: block;
     color: #ffff;
     text-decoration: none;
 }
