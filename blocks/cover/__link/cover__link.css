@@ -1,5 +1,9 @@
 .cover__link {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
     color: #ffff;
     text-decoration: none;
-    justify-content: space-between;
+    max-width: 1184px;
+    min-height: 740px;
 }
