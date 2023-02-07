@@ -12,6 +12,7 @@
 }
 @media screen and (min-width: 1024px),(min-width: 768px) {
     .place {
+        grid-template-columns: 1fr 16px 1fr;
         grid-template-areas:
             'title . website'
             'images . paragraph';
@@ -22,14 +23,13 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place {
         max-width: 928px;
-        grid-template-columns: 1fr 32px 1fr;
+       
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place {
         max-width: 720px;
-        grid-template-columns: 1fr 16px 1fr;
         grid-template-rows: auto auto;
     }
 }
